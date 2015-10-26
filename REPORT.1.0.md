@@ -7,5 +7,5 @@
 ## 系统分析
 ###### &emsp;&emsp;系统分析是详细的计算机系统的方案的说明，也被称为物理设计，系统分析强调了业务问题，系统设计则专注于系统的技术性和实现方面。
 1. 1系统的体系结构设计
-&emsp;&emsp; 随着Internet/Intranet的普及，使得基于HTTP协议的WWW技术得以广泛应用，软件行业的重点也由单机和局域网转向Internet/Intranet。为了实现更大范围内的资源共享和协同工作，网络级应用软件的计算模式也正在由传统的客户/服务器（Client/Server C/S）模型转向Internet/Intranet标准协议的三层浏览器/服务器（Browser/Server B/S）模型。B/S结构如图所示：
+<p>&emsp;&emsp; 随着Internet/Intranet的普及，使得基于HTTP协议的WWW技术得以广泛应用，软件行业的重点也由单机和局域网转向Internet/Intranet。为了实现更大范围内的资源共享和协同工作，网络级应用软件的计算模式也正在由传统的客户/服务器（Client/Server C/S）模型转向Internet/Intranet标准协议的三层浏览器/服务器（Browser/Server B/S）模型。B/S结构如图所示：</p>
 
