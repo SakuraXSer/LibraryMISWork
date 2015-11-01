@@ -58,7 +58,7 @@ Bottom
 * 4易于向关系、网状、层次等各种数据库模型转换。
 
 #### 1.4.2逻辑结构设计
- ##### 概念结构是独立于任何一种数据模型的信息结构。逻辑结构设计的任务是把概念设计阶段设计完毕的基本E-R图转化为与选用的具体机器上的DBMS产品所支持的数据模型相符的逻辑模型。
+##### 概念结构是独立于任何一种数据模型的信息结构。逻辑结构设计的任务是把概念设计阶段设计完毕的基本E-R图转化为与选用的具体机器上的DBMS产品所支持的数据模型相符的逻辑模型。
 ##### 下面是把图书馆事务管理系统的E-R图转化为关系模型。
 ##### 学生Student（studentID  studentName  studentPassword studentDept studentState）
 ##### 老师 Teacher （teacherID  teacherName teacherPassword  teacherDept teacherState）
