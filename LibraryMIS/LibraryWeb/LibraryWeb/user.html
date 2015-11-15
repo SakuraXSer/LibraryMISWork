@@ -91,25 +91,25 @@
         </div>
 
         <div class="navbar-collapse collapse" style="height: 1px;">
-            <ul id="main-menu" class="nav navbar-nav navbar-right">
-              <li class="dropdown hidden-xs">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      <span class="glyphicon glyphicon-user padding-right-small" style="position:relative;top: 3px;"></span> Sakura.X
-                      <i class="fa fa-caret-down"></i>
-                  </a>
+          <ul id="main-menu" class="nav navbar-nav navbar-right">
+            <li class="dropdown hidden-xs">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-user padding-right-small" style="position:relative;top: 3px;"></span> Sakura.X
+                    <i class="fa fa-caret-down"></i>
+                </a>
 
-                  <ul class="dropdown-menu">
-                      <li><a href="./">My Account</a></li>
-                      <li class="divider"></li>
-                      <li class="dropdown-header">Admin Panel</li>
-                      <li><a href="./">Users</a></li>
-                      <li><a href="./">Security</a></li>
-                      <li><a tabindex="-1" href="./">Payments</a></li>
-                      <li class="divider"></li>
-                      <li><a tabindex="-1" href="sign-in.html">Logout</a></li>
-                  </ul>
-              </li>
-            </ul>
+              <ul class="dropdown-menu">
+                <li><a href="./">My Account</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Admin Panel</li>
+                <li><a href="./">Users</a></li>
+                <li><a href="./">Security</a></li>
+                <li><a tabindex="-1" href="./">Payments</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1" href="sign-in.html">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
     </div>
     
@@ -122,89 +122,94 @@
         </li>
         <li>
             <ul class="dashboard-menu nav nav-list collapse in">
-                <li><a href="index.html"><span class="fa fa-caret-right"></span> Main</a></li>
-                <li ><a href="users.html"><span class="fa fa-caret-right"></span> 用户列表</a></li>
-                <li class="active"><a href="user.html"><span class="fa fa-caret-right"></span> User Profile</a></li>
-                <li ><a href="media.html"><span class="fa fa-caret-right"></span> Media</a></li>
-                <li ><a href="calendar.html"><span class="fa fa-caret-right"></span> 日程安排</a></li>
+              <li><a href="index.html"><span class="fa fa-caret-right"></span> 主页</a></li>
+              <li ><a href="users.html"><span class="fa fa-caret-right"></span> 用户列表</a></li>
+              <li ><a href="user.html"><span class="fa fa-caret-right"></span> 用户详细信息</a></li>
+              <li ><a href="calendar.html"><span class="fa fa-caret-right"></span> 日程安排</a></li>
             </ul>
         </li>
 
         <li data-popover="true" data-content="Items in this group require a <strong><a href='http://portnine.com/bootstrap-themes/aircraft' target='blank'>premium license</a><strong>." rel="popover" data-placement="right">
-          <a href="#" data-target=".premium-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-fighter-jet"></i> Premium Features<i class="fa fa-collapse"></i></a>
+          <a href="#" data-target=".premium-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-fighter-jet"></i> 分项功能<i class="fa fa-collapse"></i></a>
         </li>
+        <li>
+          <ul class="premium-menu nav nav-list collapse">
+            <!--此行字仅在mobile适应大小出现 -->
+            <li class="visible-xs visible-sm">
+                <a href="#">- Premium features require a license -</a>
+            </li>
 
-        <li>
-            <ul class="premium-menu nav nav-list collapse">
-                <li class="visible-xs visible-sm">
-                  <a href="#">- Premium features require a license -</a>
-                </li>
-                <li >
-                  <a href="premium-profile.html"><span class="fa fa-caret-right"></span> Enhanced Profile</a>
-                </li>
-                <li >
-                  <a href="premium-blog.html"><span class="fa fa-caret-right"></span> Blog</a>
-                </li>
-                <li >
-                  <a href="premium-blog-item.html"><span class="fa fa-caret-right"></span> Blog Page</a>
-                </li>
-                <li >
-                  <a href="premium-pricing-tables.html"><span class="fa fa-caret-right"></span> Pricing Tables</a>
-                </li>
-                <li >
-                  <a href="premium-upgrade-account.html"><span class="fa fa-caret-right"></span> Upgrade Account</a>
-                </li>
-                <li >
-                  <a href="premium-widgets.html"><span class="fa fa-caret-right"></span> Widgets</a>
-                </li>
-                <li >
-                  <a href="premium-timeline.html"><span class="fa fa-caret-right"></span> Activity Timeline</a>
-                </li>
-                <li >
-                  <a href="premium-users.html"><span class="fa fa-caret-right"></span> Enhanced Users List</a>
-                </li>
-                <li >
-                  <a href="premium-media.html"><span class="fa fa-caret-right"></span> Enhanced Media</a>
-                </li>
-                <li >
-                  <a href="premium-invoice.html"><span class="fa fa-caret-right"></span> Invoice</a>
-                </li>
-                <li >
-                  <a href="premium-build.html"><span class="fa fa-caret-right"></span> Advanced Tools</a>
-                </li>
-                <li >
-                  <a href="premium-colors.html"><span class="fa fa-caret-right"></span> Additional Color Themes</a>
-                </li>
-            </ul>
-        </li>
-
-        <li>
-          <a href="#" data-target=".accounts-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-briefcase"></i> Account <span class="label label-info">+3</span></a>
-        </li>
-        <li>
-          <ul class="accounts-menu nav nav-list collapse">
-            <li ><a href="sign-in.html"><span class="fa fa-caret-right"></span> Sign In</a></li>
-            <li ><a href="sign-up.html"><span class="fa fa-caret-right"></span> Sign Up</a></li>
-            <li ><a href="reset-password.html"><span class="fa fa-caret-right"></span> Reset Password</a></li>
+            <li >
+              <a href="activity.html"><span class="fa fa-caret-right"></span> 青年志愿者服务活动</a>
+            </li>
+            <li >
+              <a href="activity-item.html"><span class="fa fa-caret-right"></span> 青年志愿者服务活动详情</a>
+            </li>
+            <li>
+              <a href=""><span class="fa fa-caret-right"></span> 青年志愿者服务活动发布</a>
+            </li>
+            <li >
+              <a href="premium-users.html"><span class="fa fa-caret-right"></span> 用户信息详情列表</a>
+            </li>
+            <li >
+              <a href="studyinghall.html"><span class="fa fa-caret-right"></span> 自习室情况</a>
+            </li>
+            <li >
+              <a href="booking.html"><span class="fa fa-caret-right"></span> 自习室预约订单</a>
+            </li>
+            <li >
+              <a href="place.html"><span class="fa fa-caret-right"></span> 场地租借情况</a>
+            </li>
+            <li >
+              <a href="place-booking.html"><span class="fa fa-caret-right"></span> 场地租借订单</a>
+            </li>            
+            <li >
+              <a href="premium-colors.html"><span class="fa fa-caret-right"></span> 网页主题更换</a>
+            </li>
+            <li >
+              <a href="premium-profile.html"><span class="fa fa-caret-right"></span> Enhanced Profile</a>
+            </li>            
+            <li >
+              <a href="premium-widgets.html"><span class="fa fa-caret-right"></span> Widgets</a>
+            </li>
+            <li >
+              <a href="premium-timeline.html"><span class="fa fa-caret-right"></span> Activity Timeline</a>
+            </li>            
+            <li >
+              <a href="premium-media.html"><span class="fa fa-caret-right"></span> Enhanced Media</a>
+            </li>
           </ul>
         </li>
 
         <li>
-          <a href="#" data-target=".legal-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-legal"></i> Legal<i class="fa fa-collapse"></i></a>
+          <a href="#" data-target=".accounts-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-briefcase"></i> 账户管理 <span class="label label-info">+3</span></a>
+        </li>
+        <li>
+          <ul class="accounts-menu nav nav-list collapse">
+            <li ><a href="sign-in.html"><span class="fa fa-caret-right"></span> 用户登录</a></li>
+            <li ><a href="sign-up.html"><span class="fa fa-caret-right"></span> 用户注册</a></li>
+            <li ><a href="reset-password.html"><span class="fa fa-caret-right"></span> 重置密码</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#" data-target=".legal-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-legal"></i> 法律相关<i class="fa fa-collapse"></i></a>
         </li>
         <li>
           <ul class="legal-menu nav nav-list collapse">
             <li >
-              <a href="privacy-policy.html"><span class="fa fa-caret-right"></span> Privacy Policy</a>
+              <a href="privacy-policy.html"><span class="fa fa-caret-right"></span> 隐私政策</a>
             </li>
             <li >
-              <a href="terms-and-conditions.html"><span class="fa fa-caret-right"></span> Terms and Conditions</a>
+              <a href="terms-and-conditions.html"><span class="fa fa-caret-right"></span> 详情介绍</a>
             </li>
           </ul>
         </li>
 
-        <li><a href="help.html" class="nav-header"><i class="fa fa-fw fa-question-circle"></i> Help</a></li>
-        <li><a href="faq.html" class="nav-header"><i class="fa fa-fw fa-comment"></i> Faq</a></li>                
+        <li>
+          <a href="help.html" class="nav-header"><i class="fa fa-fw fa-question-circle"></i> 帮助</a>
+        </li>
+
       </ul>
     </div>
 
@@ -215,7 +220,7 @@
             <ul class="breadcrumb">
               <li><a href="index.html">首页</a> </li>
               <li><a href="users.html">用户</a> </li>
-              <li class="active">jsmith</li>
+              <li class="active">Mark</li>
             </ul>
 
         </div>
@@ -223,7 +228,7 @@
             
           <ul class="nav nav-tabs">
             <li class="active"><a href="#home" data-toggle="tab">详细信息</a></li>
-            <li><a href="#profile" data-toggle="tab">密码</a></li>
+            <li><a href="#profile" data-toggle="tab">重置密码</a></li>
           </ul>
 
 <div class="row">
@@ -234,28 +239,34 @@
       <form id="tab">
         <div class="form-group">
         <label>用户名称</label>
-        <input type="text" value="jsmith" class="form-control">
+        <input type="text" value="Mark" class="form-control">
         </div>
         <div class="form-group">
-        <label>用户昵称</label>
-        <input type="text" value="John" class="form-control">
+        <label>用户ID</label>
+        <input type="text" value="06135489" class="form-control">
         </div>
         <div class="form-group">
-        <label>用户身份</label>
-        <input type="text" value="Smith" class="form-control">
+        <label>用户密码</label>
+        <input type="text" value="the_mark7" class="form-control">
         </div>
         <div class="form-group">
-        <label>Email</label>
+        <label>用户邮箱</label>
         <input type="text" value="jsmith@yourcompany.com" class="form-control">
+        </div>        
+        <div class="form-group">
+        <label>用户联系方式</label>
+        <input type="text" value="13302542470" class="form-control">
         </div>
 
+
         <div class="form-group">
-          <label>Address</label>
+          <label>用户住址</label>
           <textarea value="Smith" rows="3" class="form-control">2817 S 49th
 Apt 314
 San Jose, CA 95101</textarea>
         </div>
 
+<!--选择时区
         <div class="form-group">
             <label>Time Zone</label>
             <select name="DropDownTimezone" id="DropDownTimezone" class="form-control">
@@ -290,6 +301,37 @@ San Jose, CA 95101</textarea>
               <option value="10.0">(GMT +10:00) Eastern Australia, Guam, Vladivostok</option>
               <option value="11.0">(GMT +11:00) Magadan, Solomon Islands, New Caledonia</option>
               <option value="12.0">(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka</option>
+            </select>
+          </div>
+        </form>
+      </div>
+-->
+        <div class="form-group">
+            <label>所属学院</label>
+            <select name="DropDownTimezone" id="DropDownTimezone" class="form-control">
+              <option value="矿业工程学院">矿业工程学院</option>
+              <option value="安全工程学院">安全工程学院</option>
+              <option value="力学与建筑工程学院">力学与建筑工程学院</option>
+              <option value="机电工程学院">机电工程学院</option>
+              <option value="信息与电气工程学院">信息与电气工程学院</option>
+              <option value="资源与地球科学学院">资源与地球科学学院</option>
+              <option value="化工学院">化工学院</option>
+              <option value="环境与测绘学院">环境与测绘学院</option>
+              <option value="电力工程学院">电力工程学院</option>
+              <option value="材料科学与工程学院">材料科学与工程学院</option>
+              <option value="理学院">理学院</option>
+              <option value="计算机科学与技术学院">计算机科学与技术学院</option>
+              <option value="管理学院">管理学院</option>
+              <option value="文学与法政学院">文学与法政学院</option>
+              <option value="马克思主义学院">马克思主义学院</option>
+              <option value="外国语言文化学院">外国语言文化学院</option>
+              <option value="艺术与设计学院">艺术与设计学院</option>
+              <option value="体育学院">体育学院</option>
+              <option value="孙越崎学院">孙越崎学院</option>
+              <option value="国际学院">国际学院</option>
+              <option value="应用技术学院">用技术学院</option>
+              <option value="成人教育学院">成人教育学院</option>
+
             </select>
           </div>
         </form>
