@@ -172,9 +172,11 @@
             <li >
               <a href="place-booking.html"><span class="fa fa-caret-right"></span> 场地租借订单</a>
             </li>            
+            <li >
+              <a href="premium-colors.html"><span class="fa fa-caret-right"></span> 网页主题更换</a>
+            </li>
           </ul>
         </li>
-
         <li>
           <a href="#" data-target=".accounts-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-briefcase"></i> 账户管理 <span class="label label-info">+3</span></a>
         </li>
@@ -210,7 +212,7 @@
     <div class="content">
         <div class="header">
             
-            <h1 class="page-title">青年志愿者服务活动发布</h1>
+            <h1 class="page-title">场地租借详情</h1>
             
         </div>
         <div class="main-content">
@@ -219,39 +221,42 @@
     <div class="col-sm-9 main-content">
           <form>
                 <div class="form-group">
-                    <label for="title">活动标题</label>
-                    <input type="text" class="form-control" name="title">
+                    <label for="title">申请租借时间</label>
+                    <input type="text" class="form-control" name="time">
                 </div>
                 <div class="form-group">
-                    <label for="putime">发布时间</label>
-                    <input type="text" class="form-control" name="putime" readonly="readonly">
+                    <label for="putime">申请场地名称</label>
+                    <input type="text" class="form-control" name="place">
                 </div>
                 <div class="form-group">
-                    <label for="time">活动时间</label>
-                    <div class="input-group date form_date col-md-8" data-date="" data-date-format="yyyy.mm.dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
-                        <input type="text" class="form-control" name="time">
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-                    </div>
-                </div>
-                <div class="htmleaf-container">
-                    <label for="image">上传图片</label>
-                    <input id="file-0a" class="file" type="file" multiple data-min-file-count="1">       
+                    <label for="time">申请者</label>
+                    <input type="text" class="form-control" name="applier">
                 </div>
                 <div class="form-group">
-                    <label for="message">详细内容</label>
-                    <textarea class="form-control" rows="8" name="message"></textarea>
+                    <label for="time">申请开始使用时间</label>
+                    <input type="text" class="form-control" name="timebegin">
                 </div>
-                <input type="submit" value="发布" class="btn btn-primary" style="display: block;">
+                <div class="form-group">
+                    <label for="time">申请结束使用时间</label>
+                    <input type="text" class="form-control" name="timeend">
+                </div>
+                <div class="form-group">
+                    <label for="time">使用单位</label>
+                    <input type="text" class="form-control" name="user">
+                </div>                
+                <div class="form-group">
+                    <label for="message">订单状态</label>
+                    <input type="text" class="form-control" name="status">
+                </div>
+                <input type="submit" value="提交" class="btn btn-primary" style="display: block;">
           </form>
-
     </div>
-
 </div>
 
             <footer>
                 <hr>
                 <p class="pull-right">A <a href="http://www.portnine.com/bootstrap-themes" target="_blank">Free Bootstrap Theme</a> by <a href="http://www.portnine.com/" target="_blank">Portnine</a></p>
-                <p>Â© 2014 <a href="http://www.portnine.com/" target="_blank">Portnine</a></p>
+                <p>Library MIS System© 2015 <a href="http://www.portnine.com/" target="_blank">Portnine</a></p>
             </footer>
         </div>
     </div>
